@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  100 Questions (Youth)
+//  100 Questions Youth
 //
 //  Created by Developer on 18/05/2018.
 //  Copyright © 2018 Mark Tiddy Media. All rights reserved.
