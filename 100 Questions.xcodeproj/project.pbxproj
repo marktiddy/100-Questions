@@ -14,6 +14,7 @@
 		8B5DBE6720AEEAF3009A6A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DBE6520AEEAF3009A6A15 /* LaunchScreen.storyboard */; };
 		8B5DBE7220AEEB46009A6A15 /* questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DBE7120AEEB46009A6A15 /* questions.swift */; };
 		8B5DBE7420AEEB51009A6A15 /* questionsBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DBE7320AEEB51009A6A15 /* questionsBank.swift */; };
+		8BBBC003213C4A4F003A186A /* reviewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBBC002213C4A4F003A186A /* reviewRequest.swift */; };
 		8BC3723B20B557BE0089822E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC3723A20B557BE0089822E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		8B5DBE6820AEEAF3009A6A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/developer/Public/Udemy/My Apps/100 Questions/100 Questions/Info.plist"; sourceTree = "<absolute>"; };
 		8B5DBE7120AEEB46009A6A15 /* questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questions.swift; sourceTree = "<group>"; };
 		8B5DBE7320AEEB51009A6A15 /* questionsBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionsBank.swift; sourceTree = "<group>"; };
+		8BBBC002213C4A4F003A186A /* reviewRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviewRequest.swift; sourceTree = "<group>"; };
 		8BC3723A20B557BE0089822E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 			children = (
 				8B5DBE5C20AEEAF0009A6A15 /* AppDelegate.swift */,
 				8B5DBE5E20AEEAF0009A6A15 /* ViewController.swift */,
+				8BBBC002213C4A4F003A186A /* reviewRequest.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				8B5DBE5F20AEEAF0009A6A15 /* ViewController.swift in Sources */,
 				8B5DBE7420AEEB51009A6A15 /* questionsBank.swift in Sources */,
 				8B5DBE7220AEEB46009A6A15 /* questions.swift in Sources */,
+				8BBBC003213C4A4F003A186A /* reviewRequest.swift in Sources */,
 				8B5DBE5D20AEEAF0009A6A15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

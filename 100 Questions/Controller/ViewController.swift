@@ -25,6 +25,8 @@ class ViewController: UIViewController {
         updateQuestion()
         
         questionButton.titleLabel?.textAlignment = NSTextAlignment.center
+        
+        showReview() 
 
     }
 
