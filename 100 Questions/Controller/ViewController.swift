@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionText: UILabel!
     @IBOutlet weak var questionButton: UIButton!
     
-    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?){
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?){
         updateQuestion()
     }
     
