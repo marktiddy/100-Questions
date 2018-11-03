@@ -35,9 +35,12 @@
                                     <constraint firstItem="ndg-rN-mw8" firstAttribute="centerY" secondItem="g3a-mo-ZIG" secondAttribute="centerY" id="z80-01-9Sg"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qgZ-i4-LNI">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qgZ-i4-LNI">
                                 <rect key="frame" x="0.0" y="0.0" width="333" height="61"/>
                                 <color key="backgroundColor" red="0.0" green="0.63921568627450975" blue="0.792156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="Xid-7z-L8w"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ltl-gM-D5s" userLabel="Top Container">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="122"/>
