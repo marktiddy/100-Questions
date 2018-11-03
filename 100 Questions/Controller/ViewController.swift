@@ -8,6 +8,8 @@
 
 import UIKit
 import AudioToolbox
+import Fabric
+import Crashlytics 
 //CREATE A VARIABLE TO HOLD THE QUESTION NUMBER
 
 var questionNumber : Int = 0
@@ -20,6 +22,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
         
         updateQuestion()
@@ -29,6 +32,7 @@ class ViewController: UIViewController {
         showReview() 
 
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
