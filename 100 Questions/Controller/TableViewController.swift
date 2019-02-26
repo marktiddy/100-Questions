@@ -91,7 +91,7 @@ class TableViewController: UITableViewController {
         if indexPath.row == 0 {
             return 160.0
         } else {
-        return 270.0
+        return 280.0
     }
     }
     }
